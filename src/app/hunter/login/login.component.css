@@ -1,0 +1,35 @@
+h2.form-heading {
+  margin: 0;
+  text-align: center;
+  color:#000;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 100%;
+}
+.login-social-link {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+/*-- login --*/
+.login-logo {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 100%;
+  padding-top: 88px;
+}
+.login{
+  background: url(../../../images/login.jpg)no-repeat;
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+  min-height:850px;
+}

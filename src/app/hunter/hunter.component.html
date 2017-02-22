@@ -1,0 +1,127 @@
+<div id="wrapper">
+  <!-- Navigation -->
+  <nav class="top1 navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="hunter.component.html">任重猎头</a>
+    </div>
+    <form class="navbar-form navbar-right">
+      <input type="text" class="form-control" value="Search..." onfocus="this.value = '';"
+             onblur="if (this.value == '') {this.value = 'Search...';}">
+    </form>
+    <div class="navbar-default sidebar" role="navigation">
+      <div class="sidebar-nav navbar-collapse">
+        <ul class="nav" id="side-menu">
+          <li>
+            <a [routerLink]="['/hunter-index']"><i class="fa fa-dashboard fa-fw nav_icon"></i>总览</a>
+          </li>
+          <li>
+            <a [routerLink]="['/companyList']"><i class="fa fa-table nav_icon"></i>公司列表<span class="fa arrow"></span></a>
+          </li>
+          <li>
+            <a [routerLink]="['/consumeList']"><i class="fa fa-envelope nav_icon"></i>简历列表<span class="fa arrow"></span></a>
+          </li>
+          <li>
+            <a [routerLink]="['/jobAssign']"><i class="fa fa-indent nav_icon"></i>职位安排<span class="fa arrow"></span></a>
+          </li>
+          <li>
+            <a [routerLink]="['/setting']"><i class="fa fa-check-square-o nav_icon"></i>设置<span class="fa arrow"></span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="page-wrapper">
+    <div class="graphs">
+      <div class="content_bottom">
+        <div class="col-md-8 span_3">
+          <div class="bs-example1" data-example-id="contextual-table">
+            <table class="table">
+              <thead>
+              <tr>
+                <th>#</th>
+                <th>Column heading</th>
+                <th>Column heading</th>
+                <th>Column heading</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr class="active">
+                <th scope="row">1</th>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="col-md-4 span_4">
+          <div class="col_2">
+            <div class="box_1">
+              <div class="col-md-6 col_1_of_2 span_1_of_2">
+                <a class="tiles_info">
+                  <div class="tiles-head red1">
+                    <div class="text-center">Orders</div>
+                  </div>
+                  <div class="tiles-body red">10</div>
+                </a>
+              </div>
+              <div class="col-md-6 col_1_of_2 span_1_of_2">
+                <a class="tiles_info tiles_blue">
+                  <div class="tiles-head tiles_blue1">
+                    <div class="text-center">Sales</div>
+                  </div>
+                  <div class="tiles-body blue1">30</div>
+                </a>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <div class="box_1">
+              <div class="col-md-6 col_1_of_2 span_1_of_2">
+                <a class="tiles_info">
+                  <div class="tiles-head fb1">
+                    <div class="text-center">Facebook</div>
+                  </div>
+                  <div class="tiles-body fb2">10</div>
+                </a>
+              </div>
+              <div class="col-md-6 col_1_of_2 span_1_of_2">
+                <a class="tiles_info tiles_blue">
+                  <div class="tiles-head tw1">
+                    <div class="text-center">Twitter</div>
+                  </div>
+                  <div class="tiles-body tw2">30</div>
+                </a>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+          <div class="cloud">
+            <div class="grid-date">
+              <div class="date">
+                <p class="date-in">New York</p>
+                <span class="date-on">°F °C </span>
+                <div class="clearfix"></div>
+              </div>
+              <h4>30°<i class="fa fa-cloud-upload"> </i></h4>
+            </div>
+            <p class="monday">Monday 10 July</p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+</div>

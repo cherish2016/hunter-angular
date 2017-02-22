@@ -1,0 +1,310 @@
+<div id="wrapper">
+  <!-- Navigation -->
+  <nav class="top1 navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../hunter.component.html">任重猎头</a>
+    </div>
+    <!-- /.navbar-header -->
+    <form class="navbar-form navbar-right">
+      <input type="text" class="form-control" value="Search..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search...';}">
+    </form>
+    <div class="navbar-default sidebar" role="navigation">
+      <div class="sidebar-nav navbar-collapse">
+        <ul class="nav" id="side-menu">
+          <li>
+            <a [routerLink]="['/hunter-index']"><i class="fa fa-dashboard fa-fw nav_icon"></i>总览</a>
+          </li>
+          <li>
+            <a [routerLink]="['/companyList']"><i class="fa fa-table nav_icon"></i>公司列表<span class="fa arrow"></span></a>
+          </li>
+          <li>
+            <a [routerLink]="['/consumeList']"><i class="fa fa-envelope nav_icon"></i>简历列表<span class="fa arrow"></span></a>
+          </li>
+          <li>
+            <a [routerLink]="['/jobAssign']"><i class="fa fa-indent nav_icon"></i>职位安排<span class="fa arrow"></span></a>
+          </li>
+          <li>
+            <a [routerLink]="['/setting']"><i class="fa fa-check-square-o nav_icon"></i>设置<span class="fa arrow"></span></a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.sidebar-collapse -->
+    </div>
+    <!-- /.navbar-static-side -->
+  </nav>
+  <div id="page-wrapper">
+    <div class="col-md-12 graphs">
+      <div class="xs">
+        <h3>Basic Tables</h3>
+        <div class="bs-example4" data-example-id="contextual-table">
+          <table class="table">
+            <thead>
+            <tr>
+              <th>#</th>
+              <th>Column heading</th>
+              <th>Column heading</th>
+              <th>Column heading</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="active">
+              <th scope="row">1</th>
+              <td>Column content</td>
+              <td>Column content</td>
+              <td>Column content</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Column content</td>
+              <td>Column content</td>
+              <td>Column content</td>
+            </tr>
+            <tr class="success">
+              <th scope="row">3</th>
+              <td>Column content</td>
+              <td>Column content</td>
+              <td>Column content</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Column content</td>
+              <td>Column content</td>
+              <td>Column content</td>
+            </tr>
+            <tr class="info">
+              <th scope="row">5</th>
+              <td>Column content</td>
+              <td>Column content</td>
+              <td>Column content</td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>Column content</td>
+              <td>Column content</td>
+              <td>Column content</td>
+            </tr>
+            <tr class="warning">
+              <th scope="row">7</th>
+              <td>Column content</td>
+              <td>Column content</td>
+              <td>Column content</td>
+            </tr>
+            <tr>
+              <th scope="row">8</th>
+              <td>Column content</td>
+              <td>Column content</td>
+              <td>Column content</td>
+            </tr>
+            <tr class="danger">
+              <th scope="row">9</th>
+              <td>Column content</td>
+              <td>Column content</td>
+              <td>Column content</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="panel-body1">
+          <table class="table">
+            <thead>
+            <tr>
+              <th>#</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Username</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="panel panel-warning" data-widget="{&quot;draggable&quot;: &quot;false&quot;}" data-widget-static="">
+          <div class="panel-body no-padding">
+            <table class="table table-striped">
+              <thead>
+              <tr class="warning">
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="panel panel-warning" data-widget="{&quot;draggable&quot;: &quot;false&quot;}" data-widget-static="">
+          <div class="panel-heading">
+            <h2>Warning Table</h2>
+            <div class="panel-ctrls" data-actions-container="" data-action-collapse="{&quot;target&quot;: &quot;.panel-body&quot;}"><span class="button-icon has-bg"><i class="ti ti-angle-down"></i></span></div>
+          </div>
+          <div class="panel-body no-padding" style="display: block;">
+            <table class="table table-striped">
+              <thead>
+              <tr class="warning">
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="bs-example4" data-example-id="simple-responsive-table">
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+              <tr>
+                <th>#</th>
+                <th>Table heading</th>
+                <th>Table heading</th>
+                <th>Table heading</th>
+                <th>Table heading</th>
+                <th>Table heading</th>
+                <th>Table heading</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+              </tr>
+              </tbody>
+            </table>
+          </div><!-- /.table-responsive -->
+          <div class="table-responsive">
+            <table class="table table-bordered">
+              <thead>
+              <tr>
+                <th>#</th>
+                <th>Table heading</th>
+                <th>Table heading</th>
+                <th>Table heading</th>
+                <th>Table heading</th>
+                <th>Table heading</th>
+                <th>Table heading</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+                <td>Table cell</td>
+              </tr>
+              </tbody>
+            </table>
+          </div><!-- /.table-responsive -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
